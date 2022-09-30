@@ -1,0 +1,94 @@
+// .container{
+//     margin-left: 70px;
+// }
+
+// .loginContainer{
+//     height: 70px;
+//     width: 50px;
+//     color: white;
+//     margin-top: -90px;
+// }
+
+.dataCardContainer{
+    box-shadow: 0 4px 7px 0 rgba(208, 208, 208, 0.5);
+    background: #ffffff;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.cardHeader{
+    padding: 15px;
+    padding-bottom: 15px;
+    display:flex;
+    justify-content: space-between;
+    .cardTitle{
+        color:#231F20;
+        font-family: 'RobotoBold';
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: 0;
+        top:6px;
+        position: relative;
+    }
+}
+
+
+.advFilter{
+    height:25px;
+    width:139px;
+    color: #231f20;
+    font-family: RobotoRegular;
+    font-size: 12px;
+    letter-spacing: 0;
+    box-shadow: 0 2px 4px #00000080;
+    border-radius: 12px;
+    display:flex;
+    justify-content: space-around;
+    // margin-right: 20px;
+    margin-top: 2px;
+    align-items: 2px;
+    margin-right: -140px;
+}
+
+.filterIcon{
+    height:20px;
+    cursor:pointer;
+}
+
+.bulkupload{
+    height: 19px;
+    width: 100px;
+    color:#54AD45;
+    font-family: RobotoRegular;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 19px;
+    text-align: right;
+    // margin-right: 20px;
+    top:6px;
+    position:relative ;
+    margin-right: -140px;
+
+}
+.download{
+    height: 19px;
+    width: 72px;
+    color:#E33044;
+    font-family: RobotoRegular;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 19px;
+    text-align: right;
+  
+    top:6px;
+    position:relative ;
+}
+
+.pointerIcon{
+    height:18px;
+}
